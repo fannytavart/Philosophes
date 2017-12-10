@@ -1,20 +1,15 @@
 # PHILOSOPHES
 
-{EPITECH} second year project.
-[Dining Philosophers](https://en.wikipedia.org/wiki/Dining_philosophers_problem)
+{EPITECH.} second year project.
 
-### Prerequisites
+C programs that uses threads to solves the [dining philosophers problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem).
 
-To build and run the project you need to type:
+## Running the application
+
+To run the project, execute those commands from the root of the repository:
 ```
-$> LD_LIBRARY_PATH=$(pwd)
-```
-
-### Running the application
-
-Run the following command from the root of the repository:
-```
-$> LD_PRELOAD=./libriceferee.so ./philo
+LD_LIBRARY_PATH=$(pwd)
+LD_PRELOAD=./libriceferee.so ./philo
 ```
 
 ## Authors
