@@ -1,4 +1,4 @@
-# PHILOSOPHES
+# Philosophes
 
 {EPITECH.} second year project.
 
