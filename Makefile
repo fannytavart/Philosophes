@@ -15,7 +15,7 @@ RM		= rm -f
 NAME		= philo
 
 CFLAGS		= -W -Wextra
- CFLAGS		+= -Werror
+CFLAGS		+= -Werror
 CFLAGS		+= -I ./include
 
 SRCS_MY		= my/
