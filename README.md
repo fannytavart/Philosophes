@@ -4,7 +4,16 @@
 
 C programs that uses threads to solves the [dining philosophers problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem).
 
-## Running the application
+## Requirements
+
+ - [Make](https://www.gnu.org/software/make/)
+ - [GCC](https://gcc.gnu.org/)
+
+## Compilation
+
+Navigate to the root of the repository from your Terminal and run `make` to build the `philo` executable file.
+
+## Running the program
 
 To run the project, execute those commands from the root of the repository:
 ```
