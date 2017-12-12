@@ -4,7 +4,7 @@
 
 C programs that uses threads to solves the [dining philosophers problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem).
 
-## Running the application
+## Running the program
 
 To run the project, execute those commands from the root of the repository:
 ```
