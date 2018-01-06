@@ -1,13 +1,3 @@
-##
-## Makefile for makefile in /home/tavart_f/Epitech/rendu/PSU3/PSU_2016_philo
-## 
-## Made by Fanny Tavart
-## Login   <fanny.tavart@epitech.net>
-## 
-## Started on  Mon Mar  6 12:12:26 2017 Fanny Tavart
-## Last update Sat Mar 18 19:45:08 2017 Ronan Boiteau
-##
-
 CC		= gcc
 
 RM		= rm -f
