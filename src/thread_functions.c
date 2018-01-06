@@ -1,13 +1,3 @@
-/*
-** thread_functions.c for thread_functions in /home/tavart_f/Epitech/rendu/PSU3/PSU_2016_philo
-** 
-** Made by Fanny Tavart
-** Login   <fanny.tavart@epitech.net>
-** 
-** Started on  Fri Mar 10 18:40:53 2017 Fanny Tavart
-** Last update Tue Mar 14 18:02:46 2017 Ronan Boiteau
-*/
-
 #include "philo.h"
 
 int		create_thread(pthread_t *thread_ph,

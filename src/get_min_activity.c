@@ -1,13 +1,3 @@
-/*
-** get_min_activity.c for get min activity in /home/tavart_f/Epitech/rendu/PSU3/PSU_2016_philo/src
-** 
-** Made by Fanny Tavart
-** Login   <fanny.tavart@epitech.net>
-** 
-** Started on  Tue Mar 14 21:08:39 2017 Fanny Tavart
-** Last update Sat Mar 18 20:05:44 2017 Ronan Boiteau
-*/
-
 #include "philo.h"
 
 int		get_min(t_activity activity)

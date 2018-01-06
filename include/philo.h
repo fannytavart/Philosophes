@@ -1,13 +1,3 @@
-/*
-** philo.h for philo in /home/tavart_f/Epitech/rendu/PSU3/PSU_2016_philo/include
-** 
-** Made by Fanny Tavart
-** Login   <fanny.tavart@epitech.net>
-** 
-** Started on  Mon Mar  6 12:18:07 2017 Fanny Tavart
-** Last update Sat Mar 18 20:06:06 2017 Ronan Boiteau
-*/
-
 #ifndef PHILO_H_
 # define PHILO_H_
 

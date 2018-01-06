@@ -1,13 +1,3 @@
-/*
-** extern.h for philo in /home/ronan/Documents/PSU_2016_philo
-** 
-** Made by Ronan Boiteau
-** Login   <ronan.boiteau@epitech.net>
-** 
-** Started on  Sun Mar 19 18:30:11 2017 Ronan Boiteau
-** Last update Sun Mar 19 18:30:17 2017 Ronan Boiteau
-*/
-
 #ifndef __LIBRICEFEREE_EXTERN__
 # define __LIBRICEFEREE_EXTERN__
 

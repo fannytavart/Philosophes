@@ -1,13 +1,3 @@
-/*
-** main.c for main in /home/tavart_f/Epitech/rendu/PSU3/PSU_2016_philo/src
-** 
-** Made by Fanny Tavart
-** Login   <fanny.tavart@epitech.net>
-** 
-** Started on  Mon Mar  6 12:17:31 2017 Fanny Tavart
-** Last update Sat Mar 18 19:40:35 2017 Fanny Tavart
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

@@ -1,13 +1,3 @@
-/*
-** check_actions.c for check philosophers actions in /home/tavart_f/Epitech/rendu/PSU3/PSU_2016_philo
-** 
-** Made by Fanny Tavart
-** Login   <fanny.tavart@epitech.net>
-** 
-** Started on  Fri Mar 10 19:38:17 2017 Fanny Tavart
-** Last update Sat Mar 18 20:04:33 2017 Ronan Boiteau
-*/
-
 #include <extern.h>
 #include <stdio.h>
 #include "philo.h"

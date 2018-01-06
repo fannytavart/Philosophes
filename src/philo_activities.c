@@ -1,13 +1,3 @@
-/*
-** philo_activities.c for philo activities in /home/tavart_f/Epitech/rendu/PSU3/PSU_2016_philo
-** 
-** Made by Fanny Tavart
-** Login   <fanny.tavart@epitech.net>
-** 
-** Started on  Sat Mar 11 20:36:28 2017 Fanny Tavart
-** Last update Sat Mar 18 19:31:27 2017 Ronan Boiteau
-*/
-
 #include <unistd.h>
 #include <stdio.h>
 #include "extern.h"

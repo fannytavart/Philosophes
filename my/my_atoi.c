@@ -1,13 +1,3 @@
-/*
-** my_atoi.c for lib in /home/tavart_f/Epitech/lib/my
-** 
-** Made by Fanny Tavart
-** Login   <tavart_f@epitech.net>
-** 
-** Started on  Mon Jun 13 19:47:32 2016 Fanny Tavart
-** Last update Tue Mar 14 22:58:53 2017 Ronan Boiteau
-*/
-
 #include <stdlib.h>
 
 int	my_atoi(const char *str, char *status)

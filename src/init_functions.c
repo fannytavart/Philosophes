@@ -1,13 +1,3 @@
-/*
-** init_functions.c for init_functions in /home/tavart_f/Epitech/rendu/PSU3/PSU_2016_philo
-** 
-** Made by Fanny Tavart
-** Login   <fanny.tavart@epitech.net>
-** 
-** Started on  Fri Mar 10 18:49:50 2017 Fanny Tavart
-** Last update Thu Mar 16 14:47:10 2017 Fanny Tavart
-*/
-
 #include <stdlib.h>
 #include "philo.h"
 

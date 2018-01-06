@@ -1,13 +1,3 @@
-/*
-** get_args.c for get args in /home/tavart_f/Epitech/rendu/PSU3/PSU_2016_philo
-** 
-** Made by Fanny Tavart
-** Login   <fanny.tavart@epitech.net>
-** 
-** Started on  Wed Mar  8 12:23:58 2017 Fanny Tavart
-** Last update Sat Mar 18 20:03:32 2017 Ronan Boiteau
-*/
-
 #include <string.h>
 #include <stdio.h>
 #include "my.h"
