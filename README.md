@@ -6,6 +6,7 @@ C programs that uses threads to solves the [dining philosophers problem](https:/
 
 ## Requirements
 
+ - [A Linux distribution](https://en.wikipedia.org/wiki/Linux_distribution)
  - [Make](https://www.gnu.org/software/make/)
  - [GCC](https://gcc.gnu.org/)
 
