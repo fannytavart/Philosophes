@@ -2,7 +2,7 @@
 
 {EPITECH.} second year project.
 
-C programs that uses threads to solves the [dining philosophers problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem).
+C program that uses threads to solves the [dining philosophers problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem).
 
 ## Requirements
 
