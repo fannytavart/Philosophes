@@ -14,15 +14,15 @@ pthread_mutex_t	g_m_info = PTHREAD_MUTEX_INITIALIZER;
 
 static void	eat_or_think(t_philo *philo, int chop_id, char just_eat)
 {
-  if (get_min(EATING) >= philo->nb_lunch &&
+  if (get_min() >= philo->nb_lunch &&
       can_eat(philo->id, philo, g_chopsticks))
     {
       philo_eats(philo);
       if (just_eat == 1)
 	return ;
     }
-  else if (get_min(THINKING) >= philo->nb_reflection &&
-	   can_think(philo->id, &chop_id, philo, g_chopsticks))
+  else if (get_min() >= philo->nb_reflection &&
+	   can_think(philo->id, &chop_id, g_chopsticks))
     philo_thinks(philo, chop_id);
 }
 
@@ -36,14 +36,14 @@ void		*change_activity(void *philos)
   g_info.created += 1;
   pthread_mutex_unlock(&g_m_info);
   while (g_info.created != g_info.nb_philo);
-  chop_id = -1;
+  chop_id = 0;
   while (g_info.done != 1)
     {
       if (philo->activity == RESTING)
 	eat_or_think(philo, chop_id, 0);
       else if (philo->activity == THINKING)
 	eat_or_think(philo, chop_id, 1);
-      else if (philo->activity == EATING || get_min(RESTING) >= philo->nb_sleep)
+      else if (philo->activity == EATING || get_min() >= philo->nb_sleep)
 	philo_rests(philo);
       pthread_mutex_lock(&g_m_philo[philo->id]);
       g_philos[philo->id] = *philo;

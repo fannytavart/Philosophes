@@ -51,7 +51,7 @@ typedef struct		s_chopstick
 extern t_chopstick	*g_chopsticks;
 
 char		get_args(int ac, char **av, t_info *info);
-int		get_min(t_activity activity);
+int		get_min(void);
 int		create_thread(pthread_t *thread_ph,
 			      unsigned nb_philo,
 			      t_philo *philos);
@@ -64,8 +64,7 @@ char		can_eat(int philo_id,
 			t_philo *philo,
 			t_chopstick *chopsticks);
 char		can_think(int philo_id,
-			  unsigned *chop_id,
-			  t_philo *philos,
+			  int *chop_id,
 			  t_chopstick *chopsticks);
 void		*change_activity(void *philos);
 void		philo_eats(t_philo *philo);

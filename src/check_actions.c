@@ -43,11 +43,10 @@ char		can_eat(int philo_id,
 }
 
 char		can_think(int philo_id,
-			  unsigned *chop_id,
-			  t_philo *philos,
+			  int *chop_id,
 			  t_chopstick *chopsticks)
 {
-  unsigned	right_chopstick;
+  int		right_chopstick;
 
   right_chopstick = (philo_id + 1 < g_info.nb_philo) ? philo_id + 1 : 0;
   if (chopsticks[philo_id].state == FREE)

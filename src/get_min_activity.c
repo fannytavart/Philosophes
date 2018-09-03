@@ -1,6 +1,6 @@
 #include "philo.h"
 
-int		get_min(t_activity activity)
+int		get_min(void)
 {
   int		idx;
   int		min;
